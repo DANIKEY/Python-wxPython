@@ -12,7 +12,8 @@ class EvtFramePrincipal( FramePrincipal.FramePrincipal ):
 		self.m_textCtrl_adresse.SetValue("103 Rue de Prague, 59800 Lille")
 		self.m_textCtrl_origine.SetValue("103 Rue de Prague, 59800 Lille")
 		self.m_textCtrl_destination.SetValue("23 Rue de la Performance, 59666 Villeneuve d'Ascq")
-
+                
+                #  constructeur gui 
 
 	def Rechercher( self, event ):
 		self.m_listBox_localisation.Clear()
